@@ -6,11 +6,11 @@ This project shows an example of a Javac plugin that finds the following code pa
 expr.get(key) == null // where expr is a subtype of java.util.Map
 `
 
-= Requirements
+## Requirements
 
 * JDK 8
 
-= Instructions
+## Instructions
 `
 $ mvn compile
 $ mvn jar:jar
@@ -19,7 +19,7 @@ Running!
 Found Match at line: 8 in samples/Test.java
 `
 
-= Additional notes
+## Additional notes
 
 * Project tested under Mac OSX
 * The name of the plugin is set up under META-INF/services/com.sun.source.util.Plugin
