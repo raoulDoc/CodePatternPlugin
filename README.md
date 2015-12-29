@@ -24,3 +24,4 @@ Found Match at line: 8 in samples/Test.java
 * Project tested under Mac OSX
 * The name of the plugin is set up under META-INF/services/com.sun.source.util.Plugin
 * API: https://docs.oracle.com/javase/8/docs/jdk/api/javac/tree/com/sun/source/util/Plugin.html
+* The plugin relies on tools.jar which is contained in the JDK (not the JRE). 
