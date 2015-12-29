@@ -4,12 +4,12 @@ import com.sun.source.util.TaskEvent;
 import com.sun.source.util.TaskListener;
 
 public class CodePatternTaskListener implements TaskListener {
-    private final CodePatternTreeVisitor visitor; 
-    
+    private final CodePatternTreeVisitor visitor;
+
     CodePatternTaskListener(JavacTask task) {
         visitor = new CodePatternTreeVisitor(task);
     }
-    
+
     @Override
     public void finished(TaskEvent taskEvent) {
         if (taskEvent.getKind().equals(TaskEvent.Kind.ANALYZE)) {
