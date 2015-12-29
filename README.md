@@ -11,13 +11,13 @@ expr.get(key) == null // where expr is a subtype of java.util.Map
 * JDK 8
 
 ## Instructions
-`
+```
 $ mvn compile
 $ mvn jar:jar
 $ javac -processorpath target/javac-compiler-plugin-example-1.0.jar -Xplugin:CodePatternPlugin samples/Test.java 
 Running!
 Found Match at line: 8 in samples/Test.java
-`
+```
 
 ## Additional notes
 
